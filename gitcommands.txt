@@ -1,0 +1,87 @@
+    2  ls
+    3  pwd 
+    4  ls -a
+    5  cd Desktop
+    6  cd Desktop/
+    7  cd Desktop
+    8  cd
+    9  cd Desktop/
+   10  clear 
+   11  ls
+   12  clear
+   13  cd akhil
+   14  cd .. 
+   15  cd akhil 
+   16  mkdir fullstack
+   17  ls
+   18  cd fullstack 
+   19  cd ..
+   20  cd fullstack/
+   21  cd akhil 
+   22  ls
+   23  cat fullstack.txt
+   24  cd fullstack
+   25  ls
+   26  touch data.txt
+   27  echo "hey iam here for you" > data.txt
+   28  cat data.txt
+   29  echo "This is my second line of text file " >> data.txt
+   30  cat data.txt 
+   31  echo "This is etire text file " > data.txt 
+   32  cat data.txt 
+   33  nano data.txt 
+   34  cd akhil 
+   35  cd
+   36  cd akhil/
+   37  ls
+   38  cd fullstack 
+   39  mkdir git 
+   40  cd git 
+   41  cd ..
+   42  ls
+   43  rm git 
+   44  rm -f git 
+   45  rm -d git 
+   46  lsl 
+   47  ls 
+   48  clear 
+   49  ls
+   50  mkdir Git 
+   51  ls 
+   52  nano full-stack.txt
+   53  history 
+   54  echo history > commands.txt
+   55  cat commands.txt 
+   56  history echo > commands.txt 
+   57  git init 
+   58  git status
+   59  git add full-stack.txt
+   60  git status 
+   61  git commit -m "fs1"
+   62  git config --global user.email 'akhildeegoju@gmail.com'
+   63  git config --global user.name 'Akhil Kumar'
+   64  git config user.mail
+   65  git config user.name 
+   66  clear
+   67  git config user.mail 
+   68  git config user.email 
+   69  git commit -m 'fs1'
+   70  nano full-stack.txt
+   71  git status
+   72  git add full-stack.txt
+   73  git commit -m 'fs2'
+   74  git log
+   75  mkdir fullstack
+   76  ls
+   77  rm commands.txt
+   78  rm data.txt
+   79  clear
+   80  ls 
+   81  git remote add full-stack https://github.com/Akhil007-git/fullstack 
+   82  git remote show 
+   83  git remote -v 
+   84  git pull full-stack master
+   85  git push --set-upstream full-stack master
+   86  git push -f --set-upstream full-stack master 
+   87  history 
+   88  history 87 > gitcommands.txt
