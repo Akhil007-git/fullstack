@@ -1,0 +1,15 @@
+.s1
+{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.s2
+{
+    color: cornflowerblue;
+    text-align: end;
+    text-decoration: darkcyan;
+    text-transform: uppercase;
+    font-style: oblique;
+}

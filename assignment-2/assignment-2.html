@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="cssfile.css" rel="stylesheet"
+        <title>Assignment</title>
+        <style>
+            #id
+            {
+                color:rgb(255, 0, 13);
+            }
+            .c1
+            {
+                color: rgb(31, 164, 226);
+            }
+        </style>
+    </head>
+    <body>
+        <table border="3">
+            <thead>
+                <tr>
+                    <td colspan="4" align="center">Registration</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="4" align="left"> 
+                        Username:<input type="text" id="txtusername" placeholder="Enter Usernname" /> <br/>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="left">
+                        Password:<input type="password" id="txtpassword" placeholder="Enter password" /> <br/>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="left">
+                        Email Id: <input type="text" id="txtEmailId" placeholder="Enter id" /> <br/>
+                      
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="left">
+                        Address: <textarea rows="10" cols="50"></textarea> <br/>
+                       
+                    </td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="1" align="center">
+                        <input type="button" value="Submit"/>                        
+                    </th>
+                    <th colspan="1" align="center">
+                        <input type="button" value="Cancel"/>
+                    </th>
+                </tr>
+            </tfoot>
+            
+        </table>
+        <br>
+        <br>
+        Username:<input type="text" id="txtusername" placeholder="Enter Usernname" /> <br/>
+        Password:<input type="password" id="txtpassword" placeholder="Enter password" /> <br/>
+        <input type="button" value="Submit"/> <input type="button" value="Cancel"/>
+        <br>
+        <br>
+        <h3 id="id">id selection</h1>
+        <h3 class="c1">Class selection</h1>
+        <br>
+        <br>
+        <h3 class="s1"> This is the text which is effected by external cssfile</h3>
+        <h3 class="s2">This is another file which effected by external cssfile</h3>
+    </body>
+</html>
