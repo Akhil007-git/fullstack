@@ -1,0 +1,40 @@
+.a1
+{
+    border-color: black;
+    text-align: left;
+    padding-bottom: 205px;
+    padding-right: 5px;
+    
+}
+.a2
+{
+    border: 5px solid black;
+    border-color: black;
+    background-color: lightgrey;
+    padding-bottom: 205px;
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+.a3 
+{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    font-size: xx-large;
+    
+  }
+ul 
+{
+    list-style-type: none;
+    border: 5px solid black;
+    margin: 0px;
+    background-color: lightblue;
+    padding: 10px;
+}
+ul a
+{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: xx-large;
+}
